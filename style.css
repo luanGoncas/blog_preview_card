@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'FigtreeSuper';
+    src: url('assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+    font-weight: 500;
+}
+
+body {
+    margin: 0;
+    background-color: hsl(47, 88%, 63%);
+    /* font-size: 16px; */
+    font-family: 'Figtree';
+}
+
+.main_card {
+    margin: 12.5vh 35vw;
+    padding: 2.5vh 5vw;
+    border-radius: 5%;
+    align-content: center;
+    background-color: hsl(0, 0%, 100%);
+    text-align: left;
+}
+
+.main_card img {
+    border-radius: inherit;
+    max-width: inherit;
+}
+
+.learning {
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'FigtreeSuper';
+}
+
+.section_title {
+    font-family: 'FigtreeSuper';
+    font-size: 16px;
+}
+
+.section_describe {
+    color: hsl(0, 0%, 42%);
+}
