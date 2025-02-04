@@ -13,34 +13,46 @@
 body {
     margin: 0;
     background-color: hsl(47, 88%, 63%);
-    /* font-size: 16px; */
+    font-size: 16px;
     font-family: 'Figtree';
 }
 
 .main_card {
-    margin: 12.5vh 35vw;
-    padding: 2.5vh 5vw;
+    margin: 10vh 34.5vw;
+    padding: 2.5vh 2.5vw;
+    border: 1px solid hsl(0, 0%, 0%);
     border-radius: 5%;
-    align-content: center;
     background-color: hsl(0, 0%, 100%);
-    text-align: left;
+    box-shadow: 2.5px 2.5px hsl(0, 0%, 0%);
 }
 
 .main_card img {
     border-radius: inherit;
-    max-width: inherit;
+    max-width: fit-content;
 }
 
 .learning {
     background-color: hsl(47, 88%, 63%);
     font-family: 'FigtreeSuper';
+    max-width: fit-content;
+    border-radius: 10%;
+    padding: 0.025vh 0.025vw;
+    margin: 1.5vh 0;
+}
+
+.learning p {
+    margin: 1vh 1vw;
 }
 
 .section_title {
     font-family: 'FigtreeSuper';
-    font-size: 16px;
 }
 
 .section_describe {
     color: hsl(0, 0%, 42%);
+}
+
+.section_author {
+    max-width: fit-content;
+    max-height: fit-content;
 }
