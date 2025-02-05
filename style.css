@@ -85,3 +85,31 @@ body {
 .section_author img {
     width: 2.5vw;
 }
+
+@media ((min-width: 320px) and (max-width: 375px)) {
+    body {
+        margin: 0;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .main_card {
+        margin: 12.5vh 10vw;
+        padding: 0.125vh 2vw;
+        border-radius: 3.75%;
+    }
+
+    img {
+        border-radius: inherit;
+        max-width: 70vw;
+        margin: 1.5vh 2.5vw;
+    }
+
+    .section_title {
+        font-size: 18px;
+    }
+
+    .section_author img {
+        width: 5vw;
+    }
+}
