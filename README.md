@@ -26,8 +26,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor solution URL here](https://www.frontendmentor.io/solutions/responsive-blog-preview-card-using-flexbox-and-viewport-margins-xiDfeWGTK6)
+- Live Site URL: [Live site URL here](https://blog-preview-card-gamma-drab.vercel.app)
 
 ## My process
 
@@ -50,5 +50,5 @@ Code reuse is quite helpful and helps at reinforcement learning.
 
 ## Author
 
-<!-- - Website - [Add your name here](https://www.your-site.com) -->
+- Website - [Luan Santos Gonçalves](https://www.linkedin.com/in/luangoncas/)
 - Frontend Mentor - [@luanGoncas](https://www.frontendmentor.io/profile/luanGoncas)
