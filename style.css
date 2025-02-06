@@ -20,7 +20,7 @@ body {
 
 .main_card {
     background-color: hsl(0, 0%, 100%);
-    margin: 7.5vh 35.5vw;
+    margin: 5vh 35.5vw;
     padding: 2.75vh 0.5vw;
     border-radius: 5%;
     border: 1px solid hsl(0, 0%, 7%);
@@ -107,6 +107,76 @@ body {
 
     .section_title {
         font-size: 18px;
+    }
+
+    .section_author img {
+        width: 5vw;
+    }
+}
+
+@media ((min-width: 376px) and (max-width: 425px)) {
+    body {
+        margin: 0;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .main_card {
+        margin: 7.5vh 10vw;
+        padding: 0.125vh 2vw;
+        border-radius: 3.75%;
+    }
+
+    img {
+        border-radius: inherit;
+        max-width: 70vw;
+        margin: 1.5vh 2.5vw;
+    }
+
+    .section_author img {
+        width: 7.5vw;
+    }
+}
+
+@media ((min-width: 426px) and (max-width: 768px)) {
+    body {
+        margin: 0;
+        text-align: left;
+    }
+
+    .main_card {
+        margin: 7.5vh 25vw;
+        padding: 0.125vh 0.25vw;
+        border-radius: 3.75%;
+    }
+
+    img {
+        border-radius: inherit;
+        max-width: 70vw;
+        margin: 1.5vh 2.5vw;
+    }
+
+    .section_author img {
+        width: 5vw;
+    }
+}
+
+@media ((min-width: 769px) and (max-width: 1024px)) {
+    body {
+        margin: 0;
+        text-align: center;
+    }
+
+    .main_card {
+        margin: 15vh 30vw;
+        padding: 0.25vh 2vw;
+        border-radius: 3.75%;
+    }
+
+    img {
+        border-radius: inherit;
+        max-width: 70vw;
+        margin: 1.5vh 1.25vw;
     }
 
     .section_author img {
