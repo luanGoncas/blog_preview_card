@@ -138,7 +138,7 @@ body {
     }
 }
 
-@media ((min-width: 425px) and (max-width: 768px)) {
+@media ((min-width: 426px) and (max-width: 768px)) {
     body {
         margin: 0;
         text-align: left;
@@ -152,7 +152,7 @@ body {
 
     img {
         border-radius: inherit;
-        max-width: 70vw;
+        max-width: 45vw;
         margin: 1.5vh 2.5vw;
     }
 
@@ -161,7 +161,7 @@ body {
     }
 }
 
-@media ((min-width: 768px) and (max-width: 1024px)) {
+@media ((min-width: 769px) and (max-width: 1024px)) {
     body {
         margin: 0;
         text-align: center;
@@ -175,7 +175,7 @@ body {
 
     img {
         border-radius: inherit;
-        max-width: 70vw;
+        max-width: 35vw;
         margin: 1.5vh 1.25vw;
     }
 
